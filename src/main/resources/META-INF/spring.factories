@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zj.sso.MyAuthenticationConfiguration,\
+com.zj.sso.ui.ServiceManage,\
+com.zj.sso.ui.OauthController

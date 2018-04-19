@@ -53,7 +53,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.zj.sso.entity.OauthClient;
 import com.zj.sso.service.OauthService;
 
-@Configuration("msiOauthControlConfiguration")
+@Configuration("oauthControlConfiguration")
 @EnableConfigurationProperties(CasConfigurationProperties.class)
 @Controller
 public class OauthController {
